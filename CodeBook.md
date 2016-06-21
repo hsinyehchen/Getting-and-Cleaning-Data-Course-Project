@@ -17,5 +17,5 @@ The source file 'run_analysis.R' will create the tidy_data.txt. The information 
   * The names of the activitys of each observation, including: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.  
 
 3. Other variables
-  * The rest of the variables are average of the features performed in the experiments. For more details, please refer to 
+  * The rest of the variables are average of the features performed in the experiments. Only mean and std are extracted. For more details, please refer to 
    [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
