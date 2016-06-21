@@ -18,7 +18,7 @@ The source file 'run_analysis.R' will create the tidy_data.txt. The information 
 
 3. Other variables
   * The rest of the variables are average of the features performed in the experiments.
-  * The names of the variables follows the same convention. For example, "tBodyAcc.std().Y" means this variable is standard deviation of the Y-axis sample of measurement "tBodyAcc".
-    "tBodyAccJerk.mean().Z" means this variable is the mean of the Z-axis sample of measurement "tBodyAccJerk".
+  * The names of the variables follows the same convention. For example, "tBodyAcc-std()-Y" means this variable is standard deviation of the Y-axis sample of measurement "tBodyAcc".
+    "tBodyAccJerk-mean()-Z" means this variable is the mean of the Z-axis sample of measurement "tBodyAccJerk".
   * For more info about the experiment, please refer to 
    [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
