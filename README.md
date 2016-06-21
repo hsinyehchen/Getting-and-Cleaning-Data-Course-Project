@@ -12,9 +12,12 @@ The project is designed to parse data from
 The project includes the following files:
 
 1. 'README.md'
+
    This file.
 
-2. 'run_analysis.R' - This file has to be located with the unzipped files from the 
+2. 'run_analysis.R'
+   
+   This file has to be located with the unzipped files from the 
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
    The unzipped directory has to be "UCI HAR Dataset".
    The steps in the run_analysis.R are 
@@ -26,4 +29,5 @@ The project includes the following files:
    When the script is done, the "tidy_data.txt" will be created.
 
 - 'CodeBook.md'
+
    Description of the variables, the data, and transformations.
