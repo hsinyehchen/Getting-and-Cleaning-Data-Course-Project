@@ -1,7 +1,6 @@
 ==================================================================
 #Getting-and-Cleaning-Data-Course-Project
-###Hsin-Yeh Chen,
-###06/21/2016
+Hsin-Yeh Chen, 06/21/2016
 
 This is a course project of Getting and Cleaning Data on Coursera.
 
