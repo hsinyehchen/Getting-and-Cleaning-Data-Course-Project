@@ -14,7 +14,7 @@ The source file 'run_analysis.R' will create the tidy_data.txt. The information 
   * The subject who performed the experiment. It ranges from 1 to 30. 
 
 2. activity
-  * The names of the activitys of each observation.
+  * The names of the activitys of each observation, including: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.  
 
 3. Other variables
   * The rest of the variables are average of the features performed in the experiments. For more details, please refer to 
