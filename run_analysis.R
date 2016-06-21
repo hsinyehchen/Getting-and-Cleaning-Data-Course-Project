@@ -14,7 +14,7 @@ subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", col.names = 
 activity_test <- read.table("UCI HAR Dataset/test/y_test.txt", col.names = "activity")
 activity_test$activity <- func_label(activity_test$activity)
 data_test <- read.table("UCI HAR Dataset/test/X_test.txt", col.names = feature)
-
+colnames(data_test) <- feature
 #remove non- mean or std measurements
 rmset <- names(data_test)
 rmset <- rmset[grep( "mean|std", rmset)]
@@ -31,7 +31,7 @@ subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", col.names
 activity_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "activity")
 activity_train$activity <- func_label(activity_train$activity)
 data_train <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = feature)
-
+colnames(data_train) <- feature
 #remove non- mean or std measurements
 rmset <- names(data_train)
 rmset <- rmset[grep( "mean|std", rmset)]
