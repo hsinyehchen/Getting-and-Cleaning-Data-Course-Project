@@ -4,7 +4,7 @@ Hsin-Yeh Chen, 06/21/2016
 
 This is a course project of Getting and Cleaning Data on Coursera.
 
-The file is designed to parse data from 
+The project is designed to parse data from 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
 
 
